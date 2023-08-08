@@ -21,6 +21,7 @@ body {
 }
 .wrapper {
   position: relative;
+  margin-left: 4rem;
 }
 .selectioBox {
   position: absolute;
