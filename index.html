@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="leader-line.min.js"></script>
+  </head>
+  <body>
+    <div class="selectioBox">
+      <div id="s1" class="box">Selector</div>
+      <div id="s2" class="box">Properties</div>
+      <div id="s3" class="box">Value</div>
+      <div id="s4" class="box">Comments</div>
+    </div>
+    <div class="container">
+      <div id="slTooltip" style="display: none" class="tooltip selector">
+        Selector
+      </div>
+      <div id="prop1Tooltip" style="display: none" class="tooltip prop1">
+        Properties
+      </div>
+      <div id="value1Tooltip" style="display: none" class="tooltip value1">
+        Value
+      </div>
+      <div class="wrapper">
+        <div class="line line1">
+          <span id="selector" class="fp">h1</span>
+          <span class="lp">{</span>
+        </div>
+        <div class="line line2">
+          <p class="fp">
+            <span id="prop1" class="fps1">color</span>
+            &nbsp;:&nbsp;
+            <span id="value1" class="fps2">red</span>
+          </p>
+          <p class="lp">
+            <span id="prop2" class="lps1">font-size</span>&nbsp;:&nbsp;<span
+              id="value2"
+              class="lps2"
+              >14px</span
+            >
+          </p>
+        </div>
+        <div id="cmnt" style="visibility: hidden" class="comments">
+          /* This is a single-line comment */
+        </div>
+        <div style="color: yellow; padding: 0.5rem" class="line line3">}</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

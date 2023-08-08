@@ -1,0 +1,88 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #292929;
+  font-family: monospace;
+}
+.container {
+  width: 40%;
+  height: 30%;
+  padding: 2rem 1rem;
+  box-shadow: #292929;
+  color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper {
+  position: relative;
+}
+.selectioBox {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.box {
+  padding: 1rem;
+  box-shadow: rgba(4, 4, 4, 0.29) 0px 2px 8px 0px;
+  border: 1px solid #0000007e;
+  font-size: large;
+  margin: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+.line {
+  padding: 0;
+  margin: 0;
+  line-height: 0.8;
+  font-size: larger;
+}
+.line1 .fp {
+  color: #a7a705;
+  cursor: pointer;
+}
+.line1 .lp {
+  color: yellow;
+}
+.line2 .fp .fps1,
+.line2 .lp .lps1 {
+  color: skyblue;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+.line2 .fp .fps2,
+.line2 .lp .lps2 {
+  color: #de6017;
+}
+.tooltip {
+  position: absolute;
+  padding: 1rem;
+  box-shadow: rgba(4, 4, 4, 0.29) 0px 2px 8px 0px;
+  border: 1px solid #0000007e;
+  font-size: large;
+}
+.selector {
+  left: 0;
+  top: 0;
+}
+.prop1 {
+  left: 0;
+  top: 35%;
+  cursor: pointer;
+}
+.value1 {
+  top: 30%;
+  right: 0;
+  cursor: pointer;
+}
+.comments {
+  font-size: large;
+  margin-left: 1.2rem;
+  color: green;
+  line-height: 0.8;
+}
