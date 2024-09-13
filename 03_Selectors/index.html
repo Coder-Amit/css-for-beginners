@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="simpleSelector.css" />
+    <link rel="stylesheet" href="combinationSelector.css" />
+    <link rel="stylesheet" href="attributeSelectors.css" />
+    <title>Document</title>
+    <style>
+      body {
+        line-height: 2rem; /* For better viewing*/
+      }
+    </style>
+  </head>
+  <body>
+    <!-- For simple Selector -->
+    <div class="simple" id="simple">
+      <h1>I am a simple selector</h1>
+    </div>
+
+    <!-- For combination selectors -->
+    <div class="combine">
+      <p>
+        <span>I am inside paragraph</span>
+      </p>
+      <span>I am outside paragraph</span>
+    </div>
+    <span>I am outside combine</span>
+    <br />
+    <span>I am also outside combine</span>
+
+    <!-- For attribute selectors -->
+    <div>
+      <a href="https://coderamit.com" target="_blank"
+        >I am attribute selector</a
+      >
+      <br />
+      <a href="https://coderamit.com">I am attribute selector</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+/* direct children selector (>) */
+
+.combine > span {
+  color: red;
+}
+
+/* decendent selector (space)*/
+
+.combine span {
+  color: orange;
+}
+
+/* Adjacent Sibling Selector (+) */
+
+.combine + span {
+  color: green;
+}
+
+/* General Sibling Selector (~) */
+
+.combine ~ span {
+  color: blue;
+}

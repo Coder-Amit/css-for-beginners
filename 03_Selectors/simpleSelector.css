@@ -1,0 +1,23 @@
+/* Simple Selectors
+
+h1 {
+  color: red;
+}
+div {
+  border: 1px solid orange;
+}
+.simple {
+  border: 10px solid orange;
+}
+
+#simple {
+  border: 10px dashed orange;
+}
+
+/* Attribute Selectors */
+
+/* a[target="_blank"] {
+  text-decoration: none;
+  color: red;
+  cursor: not-allowed;
+} */
